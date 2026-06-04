@@ -61,3 +61,69 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+/* =========================
+   RESEARCH THEMES SECTION
+   ========================= */
+
+.research-themes {
+    padding: 50px 15%;
+}
+
+.research-themes h2 {
+    color: #0b1f3a;
+    border-left: 5px solid #2d6cdf;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+/* Theme Card */
+.theme-card {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+/* Theme Title */
+.theme-card h3 {
+    color: #0b1f3a;
+    margin-top: 0;
+}
+
+/* Theme Image */
+.theme-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* Section Headings inside card */
+.theme-card h4 {
+    margin-top: 20px;
+    color: #1f3b63;
+}
+
+/* Lists */
+.theme-card ol,
+.theme-card ul {
+    margin-left: 20px;
+}
+
+/* Links section */
+.theme-links {
+    margin-top: 15px;
+}
+
+.theme-links a {
+    color: #2d6cdf;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.theme-links a:hover {
+    text-decoration: underline;
+}
