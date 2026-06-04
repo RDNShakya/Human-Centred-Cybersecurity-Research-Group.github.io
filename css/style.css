@@ -1,14 +1,18 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f9fc;
-    color: #1a1a1a;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
+/* =========================
+   HEADER
+   ========================= */
+
 header {
-    background-color: #0b1f3a;
-    color: white;
+    background-color: #000054; /* RMIT Blue */
+    color: #FFFFFF;
     padding: 60px 20px;
     text-align: center;
 }
@@ -16,23 +20,34 @@ header {
 header h1 {
     margin: 0;
     font-size: 36px;
+    font-weight: 600;
 }
 
 header p {
     font-size: 18px;
     margin-top: 10px;
     font-style: italic;
+    color: #FFFFFF;
 }
+
+/* =========================
+   SECTIONS
+   ========================= */
 
 section {
     padding: 50px 15%;
+    background-color: #FFFFFF;
 }
 
 h2 {
-    color: #0b1f3a;
-    border-left: 5px solid #2d6cdf;
+    color: #000054; /* RMIT Blue */
+    border-left: 5px solid #E60028; /* RMIT Red */
     padding-left: 10px;
 }
+
+/* =========================
+   CARDS (UPDATED)
+   ========================= */
 
 .card-container {
     display: grid;
@@ -42,53 +57,48 @@ h2 {
 }
 
 .card {
-    background: white;
+    background: #f2f2f2; /* light gray */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     text-align: center;
+    color: #000000;
 }
 
+/* Highlight numbers */
 .highlight {
-    color: #2d6cdf;
+    color: #E60028; /* RMIT Red */
     font-weight: bold;
 }
 
-footer {
-    background-color: #0b1f3a;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-}
-
 /* =========================
-   RESEARCH THEMES SECTION
+   RESEARCH THEMES
    ========================= */
 
 .research-themes {
     padding: 50px 15%;
+    background-color: #FFFFFF;
 }
 
 .research-themes h2 {
-    color: #0b1f3a;
-    border-left: 5px solid #2d6cdf;
+    color: #000054;
+    border-left: 5px solid #E60028;
     padding-left: 10px;
     margin-bottom: 30px;
 }
 
 /* Theme Card */
 .theme-card {
-    background: #ffffff;
+    background: #f2f2f2; /* light gray */
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
 /* Theme Title */
 .theme-card h3 {
-    color: #0b1f3a;
+    color: #000054;
     margin-top: 0;
 }
 
@@ -101,10 +111,10 @@ footer {
     margin: 15px 0;
 }
 
-/* Section Headings inside card */
+/* Subheadings */
 .theme-card h4 {
     margin-top: 20px;
-    color: #1f3b63;
+    color: #000000;
 }
 
 /* Lists */
@@ -113,17 +123,31 @@ footer {
     margin-left: 20px;
 }
 
-/* Links section */
+/* Links */
 .theme-links {
     margin-top: 15px;
 }
 
 .theme-links a {
-    color: #2d6cdf;
+    color: #000054;
     text-decoration: none;
     font-weight: 600;
 }
 
 .theme-links a:hover {
+    color: #E60028;
     text-decoration: underline;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #FFFFFF;
+    color: #000054; /* RMIT Blue */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #E60028;
 }
